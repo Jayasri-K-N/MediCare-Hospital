@@ -24,4 +24,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: deploy --assets ./ --name medicare-hospital
+          command: deploy --assets ./ --name medicare-hospital --compatibility-date 2026-11-04
